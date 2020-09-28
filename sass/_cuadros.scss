@@ -1,0 +1,68 @@
+
+#doscuadros {
+    /*background-color:#CDCCCC;*/ 
+    background-image:url(../imagenes/fonfo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 49%;;
+    margin: 1% 1%;
+
+
+    .cuadro1 {
+        display: inline-block;
+        background-color: #D4D2C9;
+        justify-items: center;
+        align-content: center;
+        height: 20%;
+        margin: 3% 3%;
+    
+        
+        h2 {
+            color: $color3;
+            text-align: center;
+            font-size: 28px;
+            }
+        
+        p{
+            color: #666666;
+            text-align: center;
+            font-size: 20px; 
+            padding: 15px;
+        }
+
+        .boton {
+            background-color: $color2;
+            border-color: $color4;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            color: $color3;
+            font-size: 16px;
+            justify-content: center; 
+            display: block;
+           
+         
+        }
+        
+        
+    }
+    .cuadro2 {
+        display: inline-block;
+        /*background-color: blue;*/
+        /*background-color:#CDCCCC;*/
+      
+        
+        .yo {
+            width: 400px; height: 410px;
+            align-content: space-between;
+            display:block;
+            margin:auto;
+            
+    
+        }
+
+}
+
+} 

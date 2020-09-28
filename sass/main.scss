@@ -1,0 +1,19 @@
+@import"_variables";
+@import"_header";
+@import "_nav";
+@import"_cuadros";
+@import"_contenedores";
+@import"_seccionblog";
+@import"_sobremi";
+
+
+html {
+    background-color: none;
+}
+
+.yoyo {
+    width: 200px; height: 300px;
+            align-content: space-between;
+            display:block;
+            margin:auto;
+}
